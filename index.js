@@ -119,15 +119,15 @@ module.exports = {
    */
   set OPTIONS(options) {
 	Proxy.options = options;
-  }
+  },
 
   /**
    * @property OPTIONS
    * @description Get ADODB OPTIONS
    */
-  get OPTIONS(options) {
+  get OPTIONS() {
 	return Proxy.options;
-  }
+  },
 
   /**
    * @function open
